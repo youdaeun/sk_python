@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Reader</title>
+</head>
+<body>
+    <h1>{{file_name}} 번역 결과 다운로드 페이지</h1>
+    <form action="{{url_for('download_report')}}">
+        <input type="submit" value="보고서 다운로드">
+    </form>
+</body>
+</html>
